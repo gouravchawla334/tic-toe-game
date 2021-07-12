@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Patua One', cursive;
+}
+body{
+    background: url("1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 100px auto;
+    background-color: black;
+}
+table tr td{
+    width: 90px;
+    height: 90px;
+    border: 1px solid gray;
+    font-size: 35px;
+    text-align: center;
+}
+table tr td:hover{
+    background-color: #2c3531;
+    cursor: pointer;
+
+}
+.winner{
+    width: 240px;
+    height: 130px;
+    margin: 10px auto;
+    font-size: 60px;
+    text-align: center;
+}
+
+.winner span{
+    font-size: 40px;
+    display: block;
+}
+button{
+    width: 240px;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+    border: none;
+    font-size: 40px;
+    background-color: #272727;
+    color: white;
+}
